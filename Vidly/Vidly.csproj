@@ -223,6 +223,10 @@
     <Compile Include="Migrations\201706292308038_PopulateMembershipTypes.Designer.cs">
       <DependentUpon>201706292308038_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706292322085_MakeRequiredNameColumnOfCustomersTable.cs" />
+    <Compile Include="Migrations\201706292322085_MakeRequiredNameColumnOfCustomersTable.Designer.cs">
+      <DependentUpon>201706292322085_MakeRequiredNameColumnOfCustomersTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -330,6 +334,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706292308038_PopulateMembershipTypes.resx">
       <DependentUpon>201706292308038_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706292322085_MakeRequiredNameColumnOfCustomersTable.resx">
+      <DependentUpon>201706292322085_MakeRequiredNameColumnOfCustomersTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

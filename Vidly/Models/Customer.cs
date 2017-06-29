@@ -14,6 +14,7 @@ namespace Vidly.Models
         public int Id { get; set; }
 
         [Column("NAME", TypeName = "NVARCHAR2")]
+        [Required]
         [StringLength(255)]
         public string Name { get; set; }
 
