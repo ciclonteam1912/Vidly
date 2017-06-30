@@ -7,6 +7,6 @@ namespace Vidly.ViewModels
     {
         public IEnumerable<MembershipType> MembershipTypes { get; set; }
 
-        public Customer Customers { get; set; }
+        public Customer Customer { get; set; }
     }
 }

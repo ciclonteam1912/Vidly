@@ -24,6 +24,7 @@ namespace Vidly.Models
         public MembershipType MembershipType { get; set; }
 
         [Column("MEMBERSHIP_TYPE_ID")]
+        [Display(Name = "Membership Type")]
         public byte MembershipTypeId { get; set; }
 
         [Column("BIRTHDATE")]
