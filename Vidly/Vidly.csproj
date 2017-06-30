@@ -227,6 +227,14 @@
     <Compile Include="Migrations\201706292322085_MakeRequiredNameColumnOfCustomersTable.Designer.cs">
       <DependentUpon>201706292322085_MakeRequiredNameColumnOfCustomersTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706300019514_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201706300019514_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201706300019514_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706300022456_UpdateExistingRecordsOnMembershipTypes.cs" />
+    <Compile Include="Migrations\201706300022456_UpdateExistingRecordsOnMembershipTypes.Designer.cs">
+      <DependentUpon>201706300022456_UpdateExistingRecordsOnMembershipTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -337,6 +345,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706292322085_MakeRequiredNameColumnOfCustomersTable.resx">
       <DependentUpon>201706292322085_MakeRequiredNameColumnOfCustomersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706300019514_AddNameToMembershipType.resx">
+      <DependentUpon>201706300019514_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706300022456_UpdateExistingRecordsOnMembershipTypes.resx">
+      <DependentUpon>201706300022456_UpdateExistingRecordsOnMembershipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
