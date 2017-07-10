@@ -15,6 +15,10 @@ namespace Vidly.Models
         [Column(TypeName = "NVARCHAR2")]
         public string DrivingLicense { get; set; }
 
+        [StringLength(50)]
+        [Column(TypeName = "NVARCHAR2")]
+        public string Phone { get; set; }
+
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Tenga en cuenta que el valor de authenticationType debe coincidir con el definido en CookieAuthenticationOptions.AuthenticationType
