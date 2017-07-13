@@ -32,5 +32,8 @@ namespace Vidly.Models
         [Column("GENRE_ID")]
         [Display(Name = "Genre")]
         public byte GenreId { get; set; }
+
+        [Column("NUMBER_AVAILABLE")]
+        public byte? NumberAvailable { get; set; }
     }
 }

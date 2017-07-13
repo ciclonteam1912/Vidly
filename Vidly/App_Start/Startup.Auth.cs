@@ -54,8 +54,8 @@ namespace Vidly
 
             app.UseTwitterAuthentication(new TwitterAuthenticationOptions
             {
-                ConsumerKey = "",
-                ConsumerSecret = "",
+                ConsumerKey = "tYAe1xRmPEYRLN3lP0qdDZXbH",
+                ConsumerSecret = "4fPWlGi0vAoS0HWOxaXHmKhLy5LDRYlkvTuJpNwoRuYsf2I67U",
                 BackchannelCertificateValidator = new CertificateSubjectKeyIdentifierValidator(new[]
                 {
                     "A5EF0B11CEC04103A34A659048B21CE0572D7D47", // VeriSign Class 3 Secure Server CA - G2
