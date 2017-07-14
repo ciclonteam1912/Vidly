@@ -4,7 +4,6 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using System.Web.Mvc;
 using Vidly.Dtos;
 using Vidly.Models;
 
@@ -19,6 +18,7 @@ namespace Vidly.Controllers.API
             _context = new ApplicationDbContext();
         }
 
+        [HttpPost]
         public IHttpActionResult CreateNewRentals(NewRentalDto newRental)
         {
             var customer = _context.Customers.Single(c => c.Id == newRental.CustomerId);
